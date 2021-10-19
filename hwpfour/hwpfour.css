@@ -1,0 +1,46 @@
+.wall{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 1000px;
+    background: lightskyblue;
+    text-align: center;
+    row-gap: 5px;
+}
+
+.header{
+    background: deepskyblue;
+    width: 100%;
+    height: 20%;
+}
+
+.nav{
+    background: steelblue;
+    width: 100%;
+    height: 15%;
+}
+
+.ma{
+    display: flex;
+    width: 100%;
+    height: 45%;
+    column-gap: 5px;
+}
+
+.main{
+    background: royalblue;
+    height: 100%;
+    flex-grow: 70;
+}
+
+.aside{
+    background: steelblue;
+    height: 100%;
+    flex-grow: 30;
+}
+
+.footer{
+    background: dodgerblue;
+    width: 100%;
+    height: 20%;
+}

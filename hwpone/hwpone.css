@@ -1,0 +1,44 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+.board{
+    height: 500px;
+    width: 1000px;
+    background: gainsboro;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.block{
+    height: 100px;
+    width: 95%;
+    background: aquamarine;
+}
+
+.wall{
+    display: flex;
+    height: 300px;
+    width: 95%;
+    background: gray;
+    column-gap: 20px;
+}
+
+.wall-block-a{
+    height:300px;
+    width: 100px;
+    background: aqua;
+    flex-grow: 4;
+}
+
+.wall-block-b{
+    height:300px;
+    width: 100px;
+    background: aqua;
+    flex-grow: 1;
+}
+
+

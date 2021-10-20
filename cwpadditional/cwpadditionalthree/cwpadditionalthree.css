@@ -1,0 +1,126 @@
+.wall{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 920px;
+    background: olive;
+    row-gap: 1%;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5%;
+    background: darkgreen;
+    row-gap: 5%;
+}
+
+.header-block{
+    width: 20%;
+    height: 40%;
+    background: darkcyan;
+}
+
+.header-post{
+    width: 60%;
+    height: 40%;
+    background: darkcyan;
+}
+
+.block{
+    width: 95%;
+    height: 15%;
+    background: forestgreen;
+}
+
+.post-blocks{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: cadetblue;
+    column-gap: 3%;
+}
+
+.post-block{
+    height: 45%;
+    width: 45%;
+    background: greenyellow;
+}
+
+
+.text-blocks{
+    width: 100%;
+    height: 25%;
+    flex-direction: column;
+    background: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5%;
+}
+
+.text-block{
+    width: 95%;
+    height: 10%;
+    background: darkgreen;
+}
+
+.text-button{
+    width: 20%;
+    height: 10%;
+    background: green;
+}
+
+.info-blocks{
+    width: 100%;
+    height: 25%;
+    background: greenyellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+}
+
+.info-block{
+    width: 95%;
+    height: 10%;
+    background: darkgreen;
+}
+
+.info-block-big{
+    width: 95%;
+    height: 55%;
+    background: darkgreen;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 5%;
+    background: darkgreen;
+    row-gap: 5%;
+}
+
+.footer-info{
+    width: 80%;
+    height: 40%;
+    background: greenyellow;
+}
+
+.footer-button{
+    width: 20%;
+    height: 40%;
+    background: greenyellow;
+}

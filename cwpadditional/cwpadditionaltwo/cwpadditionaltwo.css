@@ -1,0 +1,128 @@
+.wall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    height: 900px;
+    background: teal;
+    row-gap: 5px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 5%;
+    background: cadetblue;
+}
+
+.header-block{
+    width: 20%;
+    height: 60%;
+    background: lightgreen;
+    margin: 10px;
+}
+
+.wall-block{
+    width: 95%;
+    height: 20%;
+    background: olivedrab;
+}
+
+.post-wall-info{
+    display: flex;
+    background: olive;
+    width: 100%;
+    height: 25%;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.post-wall-info-block{
+    width: 40%;
+    height: 40%;
+    background: aquamarine;
+    margin: 10px;
+}
+
+.wall-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 10px;
+    width: 100%;
+    height: 30%;
+    background: forestgreen;
+}
+
+.info{
+    width: 40%;
+    height: 20%;
+    background: aqua;
+    margin: 5px;
+}
+
+.wall-info-button{
+    width: 20%;
+    height: 10%;
+    background: aqua;
+}
+
+.wall-board{
+    width: 100%;
+    height: 15%;
+    background: chartreuse;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wall-board-blocks{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+    background: cadetblue;
+    row-gap: 8%;
+}
+
+.wall-board-banner{
+    width: 45%;
+    height: 95%;
+    background: darkslategrey;
+}
+
+.wall-board-block{
+    width: 100%;
+    height: 28%;
+    background: aqua;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5%;
+    background: darkgreen;
+    row-gap: 8%;
+}
+
+.footer-info{
+    width: 90%;
+    height: 40%;
+    background: aqua;
+}
+
+.footer-button{
+    width: 25%;
+    height: 40%;
+    background: aqua;
+}
